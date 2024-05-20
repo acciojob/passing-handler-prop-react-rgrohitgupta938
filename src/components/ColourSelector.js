@@ -7,6 +7,7 @@ const ColourSelector = (props) => {
   console.log(props);
   return (
     <button
+      data-testid={config.key}
       className={classname}
       onClick={() => selectNextBackground({ background: background })}
     >

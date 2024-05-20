@@ -31,10 +31,6 @@ const App = () => {
   const applyColor = (updateSelectionStyle) => {
     updateSelectionStyle(nextBackground);
   };
-  const updateSelectionStyle = (back) => {
-    
-  };
-
   return (
     <div id="master">
       <h5 className="heading">{title}</h5>
